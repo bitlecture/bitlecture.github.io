@@ -1,6 +1,4 @@
 ---
 # You don't need to edit this file, it's empty on purpose.
-layout: post
+layout: home
 ---
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
