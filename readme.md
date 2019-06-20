@@ -22,13 +22,14 @@ YYYY-MM-DD-Title.md
 
 ```yaml
 ---
-layout: posts
 title:  "title"
 excerpt: "excerpt"
 date:   2019-6-20 15:31:47 +0000
 categories: Notes
 comments: true
 toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 author: Shicong Liu
 ---
 ```
