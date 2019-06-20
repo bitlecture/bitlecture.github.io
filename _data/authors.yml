@@ -1,0 +1,25 @@
+# /_data/authors.yml
+
+Shicong Liu:
+  name        : "Shicong Liu"
+  bio         : "-"
+  avatar      : "/assets/images/Shostakovich.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:prophet1380@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://psycholsc.github.io"
+
+Ziqing Zhao:
+  name        : "Ziqing Zhao"
+  bio         : "-"
+  avatar      : "/assets/images/zqz.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:1184706136@qq.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://ziqingzhao.github.io"
