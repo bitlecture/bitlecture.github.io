@@ -1,5 +1,6 @@
 ---
 title: "Exams"
-layout: home
+layout: posts
 permalink: /exams/
+author_profile: true
 ---
