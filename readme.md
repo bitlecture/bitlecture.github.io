@@ -8,9 +8,33 @@ Any suggestions mail to [our public email](mailto:bitlecturepublic@163.com)
 
 ## 编辑注意事项
 
+### 基本操作
+
 对于有`push`权限的各位编辑，以`Windows`为例，推荐采用`GitHub Desktop`对`repo`进行`clone`，然后使用自己喜欢的编辑器进行修改。推荐`Markdown`编辑器为`Typora`，推荐代码编辑器为`VS Code`。
 
 由于大多数人不具备编辑基础，因此不推荐修改已有代码，而是建议仅对`.\_posts\`下的投稿进行修改。
+
+### 作者添加 - 签约成为马猴烧酒
+
+当有作者加入时，需要首先在`\_data\authors.yml`中增加作者记录。
+
+```yaml
+Shicong Liu:
+  name        : "Shicong Liu"
+  bio         : "-"
+  avatar      : "/assets/images/Shostakovich.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:prophet1380@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://psycholsc.github.io"
+```
+
+以我本人为例，在后面直接加入这样一段即可。注意最外层的名字要求实名，里面的署名可以自定义，`bio`这里可以自由发挥。头像按照说明放在指定位置，并在这里标出即可。后面的`links`还可以加很多东西，可以参考官方文档进行添加。
+
+添加了作者之后就可以在提交作品中进行署名啦。
 
 ## 投稿编辑细则
 
@@ -69,6 +93,7 @@ classes:  wide
 
 1. 在文件开始处不需要使用一级标题再叙述一遍`title`，因为默认会将`title`设置为一级标题显示出来。
 2. `layout`实际上是本页面功能的模板，有`default, archive, home, posts`等。不同的模板作用不同。
+3. **还有很多注意事项暂时还来不及写完**
 
 投稿中的一些新特性方法会在这里逐渐更新，希望投稿或编辑之前先查看近期的更新情况。
 
