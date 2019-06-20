@@ -22,6 +22,7 @@ excerpt: "excerpt"
 date:   2019-6-20 15:31:47 +0000
 categories: Notes
 comments: true
+toc: true
 author: Shicong Liu
 ---
 ```
