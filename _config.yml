@@ -278,7 +278,17 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
+# Collections
+collections:
+  exams:
+    output: true
+    permalink: /:collection/:path/
+  MoreThanEE:
+    output: true
+    permalink: /:collection/:path/
+  about:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -286,6 +296,39 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # exams
+  - scope:
+      path: ""
+      type: exams
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # MoreThanEE
+  - scope:
+      path: ""
+      type: MoreThanEE
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # about
+  - scope:
+      path: ""
+      type: about
     values:
       layout: single
       author_profile: true

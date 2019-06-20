@@ -37,6 +37,9 @@ excerpt: "excerpt"
 date:   2019-6-20 15:31:47 +0000
 categories: Notes
 comments: true
+header:
+  image: assets/images/lenax3.png
+#   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
@@ -45,6 +48,8 @@ author: Shicong Liu
 ```
 
 以上是`yaml`表示，标题和副标题可以填写与实际相符的内容，时间正确填写，后面的`catagories`和`comments`还没有开放，可以先不填（不写这一项）。其中`catagories`可以提供一个分类方式，而`comment`可以使用第三方平台进行评论。
+
+后面的`header`条目是编辑文章头部的内容，此处只添加了图像，图像可以添加引用来源`caption`。推荐采用`3:1`比例的图像。
 
 `toc`是侧边导航栏，默认关闭，在这里手动开启，可选图标`icon`直接参考官方文档即可。如果希望将内容扩展到右侧的区域（这时导航栏将嵌入到主体中），则选择添加以下条目。
 

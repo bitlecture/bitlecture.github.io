@@ -1,9 +1,15 @@
 # main links
 main:
+  - title: "Posts"
+    url: /
+  - title: "Exams"
+    url: /exams/
+  - title: "More Than EE"
+    url: /MoreThanEE/
   - title: "View on GitHub"
     url: https://github.com/bitlecture/bitlecture.github.io
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About"
+    url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
