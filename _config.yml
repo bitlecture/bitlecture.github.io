@@ -106,8 +106,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Project Lecture"
+  avatar           : "/assets/images/team.jpg"
   bio              : "Promising Team"
   location         : "Beijing China"
   email            : "bitlecturepublic@163.com"

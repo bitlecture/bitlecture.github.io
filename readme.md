@@ -2,5 +2,5 @@
 
 Under construction.
 
-Any suggestions mail to [our public email](mailto:bitlecture@163.com)
+Any suggestions mail to [our public email](mailto:bitlecturepublic@163.com)
 
