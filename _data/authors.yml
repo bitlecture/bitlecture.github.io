@@ -44,7 +44,7 @@ Anonymous:
 Keke Ying:
   name        : "Coke Chen"
   bio         : "Banishment this world!"
-  avatar      : "/assets/images/ykk.jpg"
+  avatar      : "/assets/images/ykk.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
