@@ -40,3 +40,12 @@ Anonymous:
   name        : "Anonymous"
   bio         : "-"
   avatar      : "/assets/images/anonymous.jpg"
+
+Keke Ying:
+  name        : "Coke Chen"
+  bio         : "Banishment this world!"
+  avatar      : "/assets/images/ykk.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:1943281208@qq.com"
