@@ -35,3 +35,8 @@ YiYang Yuan:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "http://sasasatori.xyz"
+
+Anonymous:
+  name        : "Anonymous"
+  bio         : "-"
+  avatar      : "/assets/images/anonymous.jpg"
