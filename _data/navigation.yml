@@ -2,6 +2,10 @@
 main:
   - title: "Posts"
     url: /
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
   - title: "Exams"
     url: /exams/
   - title: "More Than EE"
@@ -10,8 +14,7 @@ main:
     url: https://github.com/bitlecture/bitlecture.github.io
   - title: "About"
     url: /about/
-  - title: "Categories"
-    url: /categories/
+
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
