@@ -325,6 +325,17 @@ defaults:
       comments: # true
       share: true
       related: true
+  # Categories
+  - scope:
+      path: ""
+      type: Categories
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
   # about
   - scope:
       path: ""
@@ -336,7 +347,7 @@ defaults:
       comments: # true
       share: true
       related: true
-      
+
 category_archive:
   type: liquid
   path: /categories/
