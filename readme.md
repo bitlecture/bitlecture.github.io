@@ -68,6 +68,11 @@ title:  "title"
 excerpt: "excerpt"
 date:   2019-6-20 15:31:47 +0000
 categories: Notes
+tags: 
+  - "数字图像处理"
+  - "傅里叶变换"
+  - "滤波"
+  - "卷积神经网络"
 comments: true
 header:
   image: assets/images/lenax3.png
@@ -79,7 +84,9 @@ author: Shicong Liu
 ---
 ```
 
-以上是`yaml`表示，标题和副标题可以填写与实际相符的内容，时间正确填写，后面的`catagories`和`comments`还没有开放，可以先不填（不写这一项）。其中`catagories`可以提供一个分类方式，而`comment`可以使用第三方平台进行评论。
+以上是`yaml`表示，标题和副标题可以填写与实际相符的内容，时间正确填写，后面的`comments`还没有开放，可以先不填（不写这一项）。
+
+`catagories`可以提供一个分类方式，如上所述描述为`Notes`，大家此阶段可以自由添加，后面的`tags`是同理的。今后在文章足够多的时候才会进行门类与标签的规范化。
 
 后面的`header`条目是编辑文章头部的内容，此处只添加了图像，图像可以添加引用来源`caption`。推荐采用`3:1`比例的图像。
 
