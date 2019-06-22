@@ -1,5 +1,7 @@
 ---
 title: "More Than EE"
-layout: home
+layout: archive
 permalink: /MoreThanEE/
 ---
+
+此页面暂不开放。
