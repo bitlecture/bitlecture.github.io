@@ -336,3 +336,10 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
