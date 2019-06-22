@@ -92,8 +92,47 @@ classes:  wide
 以上是关于文件头部的规则，关于内容，规则如下
 
 1. 在文件开始处不需要使用一级标题再叙述一遍`title`，因为默认会将`title`设置为一级标题显示出来。
+
 2. `layout`实际上是本页面功能的模板，有`default, archive, home, posts`等。不同的模板作用不同。
-3. **还有很多注意事项暂时还来不及写完**
+
+3. 当一篇文章存在多个作者的时候，可以采用`sidebar`方法进行配置，例如
+
+    ```yaml
+    sidebar:
+      - title: "Role"
+        image: http://placehold.it/350x250
+        image_alt: "logo"
+        text: "Designer, Front-End Developer"
+      - title: "Responsibilities"
+        text: "Reuters try PR stupid commenters should isn't a business model"
+    ```
+
+    `sidebar`方法支持的特性还很多，`author`就是使用`sidebar`组合出的一种形式，具体使用可以查看官方文档。
+
+4. 内容中出现并列图像时可以使用`gallery`方法，例如
+
+    ```yaml
+    gallery:
+      - url: /assets/images/unsplash-gallery-image-1.jpg
+        image_path: assets/images/unsplash-gallery-image-1-th.jpg
+        alt: "placeholder image 1"
+      - url: /assets/images/unsplash-gallery-image-2.jpg
+        image_path: assets/images/unsplash-gallery-image-2-th.jpg
+        alt: "placeholder image 2"
+      - url: /assets/images/unsplash-gallery-image-3.jpg
+        image_path: assets/images/unsplash-gallery-image-3-th.jpg
+        alt: "placeholder image 3"
+    ```
+
+    这时就定义了一个`gallery`，使用时可以
+
+    ```html
+    {% include gallery caption="This is a sample gallery to go along with this case study." %}
+    ```
+
+    就可以在合适的位置进行插入。`caption`是下方注释标签。
+
+5. **还有很多注意事项暂时还来不及写完**
 
 投稿中的一些新特性方法会在这里逐渐更新，希望投稿或编辑之前先查看近期的更新情况。
 
