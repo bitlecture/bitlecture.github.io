@@ -1,8 +1,14 @@
+[TOC]
+
 # BIT Lecture
 
 Under construction.
 
 Any suggestions mail to [our public email](mailto:bitlecturepublic@163.com)
+
+
+
+**长期征收投稿，直接投稿至[邮箱](mailto:bitlecturepublic@163.com)即可。**
 
 
 
@@ -36,7 +42,9 @@ Shicong Liu:
 
 添加了作者之后就可以在提交作品中进行署名啦。
 
-## 投稿编辑细则
+## 投稿&编辑细则
+
+**投稿接受任意可编辑文件。**作者直接提交到公共[邮箱](mailto:bitlecturepublic@163.com)
 
 ### 命名
 
