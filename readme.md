@@ -44,7 +44,9 @@ Shicong Liu:
 
 ## 投稿&编辑细则
 
-**投稿接受任意可编辑文件。**作者直接提交到公共[邮箱](mailto:bitlecturepublic@163.com)
+**投稿接受任意可编辑文件。**
+
+作者请直接提交到公共[邮箱](mailto:bitlecturepublic@163.com)
 
 ### 命名
 
