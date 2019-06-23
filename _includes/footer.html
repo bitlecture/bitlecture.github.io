@@ -1,26 +1,52 @@
 <!-- 增加返回顶部 -->
-<!-- 需要的文件 -->
+<!-- script -->
+<script type="text/javascript">
+  var $backToTop = $(".back-to-top");
+  $backToTop.hide();
 
-<script src="{{ site.url }}/assets/js/vendor/jquery/jquery-3.4.1.js"></script>
-<style>
-     #btn{width: 50px;height: 50px;background: gray;}
-</style>
-<!-- div -->
-<div id="btn">
-  <button id="btn">返回顶部</button>
-</div>
-<script>
-    var btn = document.getElementById('btn');
-//    var scrollTop  = document.documentElement.scrollTop||document.body.scrollTop;//兼容性写法，并且在滚动事件内可以实时获得滚动条距顶部的距离 ;
-    
-    btn.onclick = function(){
 
-       $('body,html').animate({scrollTop:0},300)
-
+  $(window).on('scroll', function() {
+    if ($(this).scrollTop() > 100) {
+      $backToTop.fadeIn();
+    } else {
+      $backToTop.fadeOut();
     }
+  });
+
+  $backToTop.on('click', function(e) {
+    $("html, body").animate({scrollTop: 0}, 500);
+  });  
 </script>
+<!-- html -->
+<h1 class="intro-copy">
+  This is an example of a simple, jQuery back to top button...
+</h1>
 
-
+<div class="back-to-top">Back to Top</div>
+<!-- css -->
+<style type="text/css">
+  .intro-copy {
+  padding: 1em;
+  margin: 3em auto;
+  max-width: 437px;
+  font-size: 2em;
+  line-height: 1.2;
+  font-weight: lighter;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-block;  
+  padding: 1em;
+  margin: 1em;
+  background: #E8E8E8;
+  border: 2px solid #000;
+}
+.back-to-top:hover {
+  cursor: pointer;
+}
+/*----------*/
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
