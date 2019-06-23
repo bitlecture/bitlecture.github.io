@@ -1,6 +1,33 @@
 <!-- 增加返回顶部 -->
 <!-- 需要的文件 -->
-<script src="{{ site.url }}/"></script>
+<style type="text/css">
+  .tools-wrapper {
+    position: fixed;
+    right: 1em;
+    bottom: 3.4375em;
+    z-index: 9;
+    width: 2.5em;
+}
+.tools-wrapper a {
+    color: #999;
+    text-align: center;
+    margin-bottom: -1px;
+    background: rgba(255, 255, 255, 32);
+}
+.octicon, .mega-octicon {
+    font: normal normal normal 16px/1 octicons;
+    display: inline-block;
+    text-decoration: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+</style>
+<script src="{{ site.url }}/assets/js/plugins/jquery.ba-throttle-debounce.js"></script>
 <link rel="stylesheet" type="text/css" href="{{ site.url }}/">
 <!-- div -->
 <div class="tools-wrapper">
