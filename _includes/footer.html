@@ -41,22 +41,7 @@ cursor: pointer;
 <!-- script -->
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script type="text/javascript" src="{{ site.url }}/assets/js/plugins/backtotop.js"></script>
-<script>
-  $(window).scroll(function() {
-  var backToTopButton = $(".back-to-top");
-  if ($(window).scrollTop() >= 200) {
-    backToTopButton.css("bottom", "0px");
-  } else {
-    backToTopButton.attr('style', '');
-  }
-  backToTopButton.click(function() {
-    $('body,html').stop().animate({
-      scrollTop: 0
-    }, "slow");
-  });
-  return false;
-});
-</script>
+
 
 
 <div class="page__footer-follow">
