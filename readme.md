@@ -157,3 +157,16 @@ classes:  wide
 
 这里只要将本地库`push`上去就好了，但是要记得把`push`的内容做好注释，尽量标记好时间，例如搜狗拼音输入法的标准时间格式`2019-6-20 22:12:17`
 
+## 目录说明
+
+### `_layout`
+
+- `default`: 默认的layout，其他层通过`layout: default`继承`default`
+![](readme/readme0.png)
+- `archive`: 用来罗列各个类别的文章（按照category分类？）
+![](readme/readme1.png)
+
+
+### `include`
+- `archive-single`: 在页面里显示单个post的介绍
+![](readme/readme2.png)
