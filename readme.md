@@ -1,17 +1,17 @@
-<!-- MarkdownTOC autolink=true-->
+<!-- MarkdownTOC autolink=true -->
 
-- BIT Lecture
-  - 编辑注意事项
-    - 基本操作
-    - 作者添加 - 签约成为马猴烧酒
-  - 投稿&编辑细则
-    - 命名
-    - 头部标识
-    - 内容
-    - 提交
-  - 目录说明
-    - `_layout`
-    - `include`
+- [BIT Lecture](#bit-lecture)
+  - [编辑注意事项](#%E7%BC%96%E8%BE%91%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+    - [基本操作](#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C)
+    - [作者添加 - 签约成为马猴烧酒](#%E4%BD%9C%E8%80%85%E6%B7%BB%E5%8A%A0---%E7%AD%BE%E7%BA%A6%E6%88%90%E4%B8%BA%E9%A9%AC%E7%8C%B4%E7%83%A7%E9%85%92)
+  - [投稿&编辑细则](#%E6%8A%95%E7%A8%BF%E7%BC%96%E8%BE%91%E7%BB%86%E5%88%99)
+    - [命名](#%E5%91%BD%E5%90%8D)
+    - [头部标识](#%E5%A4%B4%E9%83%A8%E6%A0%87%E8%AF%86)
+    - [内容](#%E5%86%85%E5%AE%B9)
+    - [提交](#%E6%8F%90%E4%BA%A4)
+  - [目录说明](#%E7%9B%AE%E5%BD%95%E8%AF%B4%E6%98%8E)
+    - [`_layout`](#_layout)
+    - [`include`](#include)
 
 <!-- /MarkdownTOC -->
 
