@@ -1,4 +1,20 @@
-[TOC]
+<!-- MarkdownTOC autolink=true-->
+
+- BIT Lecture
+  - 编辑注意事项
+    - 基本操作
+    - 作者添加 - 签约成为马猴烧酒
+  - 投稿&编辑细则
+    - 命名
+    - 头部标识
+    - 内容
+    - 提交
+  - 目录说明
+    - `_layout`
+    - `include`
+
+<!-- /MarkdownTOC -->
+
 
 # BIT Lecture
 
@@ -163,9 +179,10 @@ classes:  wide
 
 - `default`: 默认的layout，其他层通过`layout: default`继承`default`
 ![](readme/readme0.png)
-- `archive`: 用来罗列各个类别的文章（按照category分类？）
+- `archive`: 用来罗列各个类别的文章，包含了上面的sidebar（按照category分类？）
 ![](readme/readme1.png)
-
+- `home`: 如下所示
+![](readme/readme3.png)
 
 ### `include`
 - `archive-single`: 在页面里显示单个post的介绍
