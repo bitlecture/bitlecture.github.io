@@ -1,30 +1,41 @@
 <!-- 增加返回顶部 -->
 <!-- 需要的文件 -->
 <style type="text/css">
-  .tools-wrapper {
-    position: fixed;
-    right: 1em;
-    bottom: 3.4375em;
-    z-index: 9;
-    width: 2.5em;
+.tools-wrapper {
+  position: fixed;
+  right: 1em;
+  bottom: 3.4375em;
+  z-index: 9;
+  width: 2.5em;
 }
+
 .tools-wrapper a {
-    color: #999;
-    text-align: center;
-    margin-bottom: -1px;
-    background: rgba(255, 255, 255, 32);
+  color: #999;
+  text-align: center;
+  margin-bottom: -1px;
+  background: rgba(255, 255, 255, 32);
 }
+
+.tools-wrapper span.octicon {
+  font-size: 1.5em;
+}
+
+.tools-wrapper .gotop {
+  display: none;
+}
+
+
 .octicon, .mega-octicon {
-    font: normal normal normal 16px/1 octicons;
-    display: inline-block;
-    text-decoration: none;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  font: normal normal normal 16px/1 octicons;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 </style>
 <script src="{{ site.url }}/assets/js/plugins/jquery.ba-throttle-debounce.js"></script>
