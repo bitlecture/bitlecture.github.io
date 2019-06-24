@@ -10,6 +10,7 @@
   - [头部标识](#%E5%A4%B4%E9%83%A8%E6%A0%87%E8%AF%86)
   - [内容](#%E5%86%85%E5%AE%B9)
   - [提交](#%E6%8F%90%E4%BA%A4)
+- [改动说明](#%E6%94%B9%E5%8A%A8%E8%AF%B4%E6%98%8E)
 - [目录说明](#%E7%9B%AE%E5%BD%95%E8%AF%B4%E6%98%8E)
   - [`_layout`](#_layout)
   - [`include`](#include)
@@ -173,6 +174,14 @@ classes:  wide
 
 这里只要将本地库`push`上去就好了，但是要记得把`push`的内容做好注释，尽量标记好时间，例如搜狗拼音输入法的标准时间格式`2019-6-20 22:12:17`
 
+## 改动说明  
+
+- 增加返回顶部按钮（参考了codepen）
+  直接在`assets/js/main.min.js`中加入了返回顶部的js，css部分在`include/head/custom.html`中添加。 
+  TODO：将.js文件放在js/下单独引用
+
+- 
+
 ## 目录说明
 
 ### `_layout`
@@ -187,3 +196,4 @@ classes:  wide
 ### `include`
 - `archive-single`: 在页面里显示单个post的介绍
 ![](readme/readme2.png)
+
