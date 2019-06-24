@@ -180,7 +180,7 @@ classes:  wide
   直接在`assets/js/main.min.js`中加入了返回顶部的js，css部分在`include/head/custom.html`中添加。 
   TODO：将.js文件放在js/下单独引用
 
-- 
+- 在`custom.html`中添加使用$ $的代码，以后编辑post无需在前面增加。
 
 ## 目录说明
 
