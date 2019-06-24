@@ -3,6 +3,8 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
+
+<!-- back-to-top -->
 <style>
 
   .back-to-top {
@@ -38,3 +40,20 @@ cursor: pointer;
 </style>
 <!-- <script src="https://raw.githubusercontent.com/bitlecture/bitlecture.github.io/master/assets/js/plugins/backtotop.js"></script>
 <script src="https://raw.githubusercontent.com/bitlecture/bitlecture.github.io/master/assets/js/_main.js"></script> -->
+
+<script>
+	$(window).scroll(function() {
+  var backToTopButton = $(".back-to-top");
+  if ($(window).scrollTop() >= 200) {
+    backToTopButton.css("bottom", "0px");
+  } else {
+    backToTopButton.attr('style', '');
+  }
+  backToTopButton.click(function() {
+    $('body,html').stop().animate({
+      scrollTop: 0
+    }, "slow");
+  });
+  return false;
+});
+</script>
