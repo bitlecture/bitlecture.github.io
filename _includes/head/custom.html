@@ -3,3 +3,40 @@
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
+<style>
+  body{
+    height: 2000px;
+  }
+
+  .back-to-top {
+  display: inline-block;
+  margin-bottom: 18px;
+  text-decoration: underline;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+
+background: #000;
+position: fixed;
+bottom: -150px;
+right: 18px;
+transition: bottom 1s;
+cursor: pointer;
+
+}
+.back-to-top:before {
+  content: " ";
+  display: block;
+  width: 42%;
+  padding: 21% 0;
+  border: solid #FFF;
+  border-width: 0 2px 2px 0;
+  transform: rotate(225deg);
+  margin-left: 26%;
+  margin-top: 35%;
+  position: absolute;
+  z-index: 20;
+}
+</style>
+<script src="{{ site.url }}}/assets/js/plugins/backtotop.js"></script>
