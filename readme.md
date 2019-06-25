@@ -176,6 +176,8 @@ classes:  wide
 
 - 在`custom.html`中添加使用$ $的代码，以后编辑post无需在前面增加。
 
+- 增加评论功能（选择`gitalk`，利用项目的`issue`功能），`config`配置在最后`comments`部分，`comments`的`div`放在了`single.html`的文章内容部分（具体位置见注释）。
+
 ## 目录说明
 
 ### `_layout`
@@ -183,12 +185,16 @@ classes:  wide
 - `default`: 默认的layout，其他层通过`layout: default`继承`default`
   
   ![](readme/readme0.png)
+
 - `archive`: 用来罗列各个类别的文章，包含了上面的sidebar（按照category分类？）
   
   ![](readme/readme1.png)
+
 - `home`: 如下所示
   
   ![](readme/readme3.png)
+
+- `single`：每篇post的内容布局
 
 ### `include`
 
