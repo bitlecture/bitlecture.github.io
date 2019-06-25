@@ -354,3 +354,29 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+
+disqus:
+    username: 
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: bitlecture
+    repo: blog
+    oauth:
+        client_id: 3965cdd78a8a7997ece0
+        client_secret: 822a7cca4d2856f2e4e183ccaa4f6518d93e307c
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: bitlecture
+    repo: blog
+    clientID: 3965cdd78a8a7997ece0
+    clientSecret: 822a7cca4d2856f2e4e183ccaa4f6518d93e307c
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
