@@ -68,6 +68,12 @@ layout: default
     {% endif %}
   </article>
 
+<!-- 评论 -->
+    
+    <div class="comment">
+        {% include comments.html %}
+    </div>
+
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
