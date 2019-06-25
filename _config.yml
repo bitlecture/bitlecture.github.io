@@ -368,14 +368,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: bitlecture
-    repo: blog
+    repo: bitlecture.github.io
     oauth:
         client_id: 3965cdd78a8a7997ece0
         client_secret: 822a7cca4d2856f2e4e183ccaa4f6518d93e307c
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: bitlecture
-    repo: blog
+    repo: bitlecture.github.io
     clientID: 3965cdd78a8a7997ece0
     clientSecret: 822a7cca4d2856f2e4e183ccaa4f6518d93e307c
 # 在使用其它评论组件时可点击显示 Disqus
