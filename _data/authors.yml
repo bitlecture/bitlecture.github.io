@@ -53,11 +53,11 @@ Keke Ying:
 Shi Nian:
   name        : "Shi Nian"
   bio         : "-"
-  avatar      : "/assets/images/ShiNian.jpg"
+  avatar      : "/assets/images/ShiNian.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:1178396201@qq.com"
     - label: "blog"
       icon: "fas fa-fw fa-link"
-      url: "https://anaqq.xyz/blog/"
+      url: "http://anaqq.xyz/blog/"
