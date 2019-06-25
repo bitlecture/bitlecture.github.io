@@ -23,6 +23,11 @@ Any suggestions mail to [our public email](mailto:bitlecturepublic@163.com)
 
 **长期征收投稿，直接投稿至[邮箱](mailto:bitlecturepublic@163.com)即可。**
 
+## 上网不涉密 涉密不上网
+
+**请注意，投稿内容仅限于课程，请勿夹带私货，谨记第二校训，上网不涉密，涉密不上网。**
+
+
 ## 编辑注意事项
 
 ### 基本操作
