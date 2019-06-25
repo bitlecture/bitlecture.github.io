@@ -61,6 +61,12 @@ layout: default
       {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
+
+      <!-- 评论 -->
+    
+
+        {% include comments.html %}
+
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
@@ -68,11 +74,6 @@ layout: default
     {% endif %}
   </article>
 
-<!-- 评论 -->
-    
-    <div class="comment">
-        {% include comments.html %}
-    </div>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
