@@ -22,15 +22,17 @@
     <div class="initial-content">
       {{ content }}
     </div>
+    
+    <div class="comment">
+        {% include comments.html %}
+    </div>
 
     {% if site.search == true %}
       <div class="search-content">
         {% include_cached search/search_form.html %}
       </div>
     {% endif %}
-    <div class="comment">
-        {% include comments.html %}
-    </div>
+
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}
