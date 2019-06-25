@@ -49,3 +49,15 @@ Keke Ying:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:1943281208@qq.com"
+
+Shi Nian:
+  name        : "Shi Nian"
+  bio         : "-"
+  avatar      : "/assets/images/ShiNian.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:1178396201@qq.com"
+    - label: "blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://anaqq.xyz/blog/"

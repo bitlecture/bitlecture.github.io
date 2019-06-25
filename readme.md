@@ -17,17 +17,11 @@
 
 <!-- /MarkdownTOC -->
 
-
-
 Under construction.
 
 Any suggestions mail to [our public email](mailto:bitlecturepublic@163.com)
 
-
-
 **长期征收投稿，直接投稿至[邮箱](mailto:bitlecturepublic@163.com)即可。**
-
-
 
 ## 编辑注意事项
 
@@ -117,8 +111,6 @@ classes:  wide
 
 关于作者，需要在`\_data\authors.yml`中添加作者信息。每一位投稿人都可以根据个人信息进行填写，并且如上方式添加`author`即可在页面左侧看到作者的自定义信息。注意作者的头像信息需要放在`\assets\images\`下，并且在信息中对应。这里推荐采用正方形或近似正方形，主要内容集中在中心圆形内的头像，否则可能显示不全。
 
-
-
 ---
 
 ### 内容
@@ -130,8 +122,8 @@ classes:  wide
 2. `layout`实际上是本页面功能的模板，有`default, archive, home, posts`等。不同的模板作用不同。
 
 3. 当一篇文章存在多个作者的时候，可以采用`sidebar`方法进行配置，例如
-
-    ```yaml
+   
+   ```yaml
     sidebar:
       - title: "Role"
         image: http://placehold.it/350x250
@@ -139,13 +131,13 @@ classes:  wide
         text: "Designer, Front-End Developer"
       - title: "Responsibilities"
         text: "Reuters try PR stupid commenters should isn't a business model"
-    ```
-
+   ```
+   
     `sidebar`方法支持的特性还很多，`author`就是使用`sidebar`组合出的一种形式，具体使用可以查看官方文档。
 
 4. 内容中出现并列图像时可以使用`gallery`方法，例如
-
-    ```yaml
+   
+   ```yaml
     gallery:
       - url: /assets/images/unsplash-gallery-image-1.jpg
         image_path: assets/images/unsplash-gallery-image-1-th.jpg
@@ -156,14 +148,14 @@ classes:  wide
       - url: /assets/images/unsplash-gallery-image-3.jpg
         image_path: assets/images/unsplash-gallery-image-3-th.jpg
         alt: "placeholder image 3"
-    ```
-
+   ```
+   
     这时就定义了一个`gallery`，使用时可以
-
-    ```html
+   
+   ```html
     {% include gallery caption="This is a sample gallery to go along with this case study." %}
-    ```
-
+   ```
+   
     就可以在合适的位置进行插入。`caption`是下方注释标签。
 
 5. **还有很多注意事项暂时还来不及写完**
@@ -174,10 +166,12 @@ classes:  wide
 
 这里只要将本地库`push`上去就好了，但是要记得把`push`的内容做好注释，尽量标记好时间，例如搜狗拼音输入法的标准时间格式`2019-6-20 22:12:17`
 
-## 改动说明  
+## 改动说明
 
 - 增加返回顶部按钮（参考了codepen）
+  
   直接在`assets/js/main.min.js`中加入了返回顶部的js，css部分在`include/head/custom.html`中添加。 
+  
   TODO：将.js文件放在js/下单独引用
 
 - 在`custom.html`中添加使用$ $的代码，以后编辑post无需在前面增加。
@@ -187,13 +181,17 @@ classes:  wide
 ### `_layout`
 
 - `default`: 默认的layout，其他层通过`layout: default`继承`default`
-![](readme/readme0.png)
+  
+  ![](readme/readme0.png)
 - `archive`: 用来罗列各个类别的文章，包含了上面的sidebar（按照category分类？）
-![](readme/readme1.png)
+  
+  ![](readme/readme1.png)
 - `home`: 如下所示
-![](readme/readme3.png)
+  
+  ![](readme/readme3.png)
 
 ### `include`
-- `archive-single`: 在页面里显示单个post的介绍
-![](readme/readme2.png)
 
+- `archive-single`: 在页面里显示单个post的介绍
+  
+  ![](readme/readme2.png)
