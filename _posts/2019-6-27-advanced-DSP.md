@@ -14,7 +14,7 @@ author: Shi Nian
 ---
 
 <!-- mermaid绘图 -->
-<script src="http://anaqq.xyz/blog/assets/js/mermaid.min.js"></script>
+<script src="{{site.url}}/assets/js/mermaid.min.js"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
 
 
