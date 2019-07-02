@@ -7,7 +7,6 @@ categories: Notes
 tags: 
   - "高级DSP"
 comments: true
-header:
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
