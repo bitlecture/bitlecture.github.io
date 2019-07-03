@@ -262,9 +262,9 @@
   </div>
 </div>
 
-{% assign author = page.author | default: page.authors[1] | default: site.author %}
-{% assign author = site.data.authors[author] | default: author %}
-<p> {{author}} </p>
+{% assign author = page.coauthor | default: page.coauthors[0] | default: site.coauthor %}
+{% assign author = site.data.authors[coauthor] | default: coauthor %}
+<p> {{coauthor}} </p>
 <div itemscope itemtype="https://schema.org/Person">
 
   {% if author.avatar %}
