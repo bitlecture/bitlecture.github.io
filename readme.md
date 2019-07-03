@@ -99,6 +99,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
 author: Shicong Liu
+coauthor: xxx
 ---
 ```
 
@@ -115,6 +116,8 @@ classes:  wide
 ```
 
 关于作者，需要在`\_data\authors.yml`中添加作者信息。每一位投稿人都可以根据个人信息进行填写，并且如上方式添加`author`即可在页面左侧看到作者的自定义信息。注意作者的头像信息需要放在`\assets\images\`下，并且在信息中对应。这里推荐采用正方形或近似正方形，主要内容集中在中心圆形内的头像，否则可能显示不全。
+
+注意现在已经可以添加合作作者了，只需要在`toc`中增加一个`coauthor`条目，规则与`author`相同，目前限制合作作者数量为`1`，如果日后存在需求则还会补充。
 
 ---
 
