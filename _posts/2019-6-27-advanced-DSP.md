@@ -10,9 +10,10 @@ comments: true
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
-author: Shi Nian
-coauthor: Shicong Liu
-
+author: 
+  - Shi Nian
+  - Shicong Liu
+  
 ---
 
 <!-- mermaid绘图 -->
