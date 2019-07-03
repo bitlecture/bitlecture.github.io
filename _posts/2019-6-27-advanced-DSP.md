@@ -11,11 +11,8 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 author: Shi Nian
-sidebar:
-  - title: "Shicong Liu"
-    image: /assets/images/Shostakovich.jpg
-    image_alt: "logo"
-    text: "Co-Author"
+coauthor: Shicong Liu
+
 ---
 
 <!-- mermaid绘图 -->
@@ -176,14 +173,24 @@ $$
 \mid<x,y>\mid^2 \leq <x,x>·<y,y>
 $$
 
+
+
 上述尖括号运算是内积运算，运算如下
+
+
 $$
 <x,y>==\int_{-\infty}^\infty x(t)y^*(t)dt
 $$
+
+
 或
+
+
 $$
 <x,y>==\sum\limits_{n=-\infty}^{\infty}x(n)y^*(n)
 $$
+
+
 如果两个信号内积为0，我们说这两个信号是正交的。
 
 ### 确定信号的相关函数
