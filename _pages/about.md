@@ -14,3 +14,5 @@ author_profile: true
 网站的维护需要更多人的支持，这里也诚邀各位加入网站的维护。
 
 `2019-6-20 19:23:30`
+
+BUG report: [bitlecturepublic@163.com](mailto:bitlecturepublic@163.com)
