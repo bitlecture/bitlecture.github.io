@@ -15,10 +15,6 @@ coauthor: Shicong Liu
 
 ---
 
-<!-- mermaid绘图 -->
-<script src="{{site.url}}/assets/js/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});</script>
----
 
 本课程内容涵盖`DSP`基础，变速率信号处理以及小波变换的基础知识。
 
@@ -990,6 +986,12 @@ a-b域内的任意函数是否都能看作是一个信号的x的小波变换系�
 86. 如果x是实信号，则自相关函数是实偶函数；如果x是复信号，则自先关函数是一个共轭对称函数。
 87. 确知信号的分析与随机信号的确实不同，之前上课的时候还觉得一直在讲相同的东西，真的是很对不起老师了。
 88. 互相关函数虽然不是偶函数，但是$$r_{xy}(m)==r_{yx}(-m)$$
+
+
+<!-- mermaid绘图 -->
+<script src="{{site.url}}/assets/js/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+<!-- 注意：将脚本放到文章最后，防止初始加载消耗过多时间 -->
 
 
 
