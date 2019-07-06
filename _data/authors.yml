@@ -52,7 +52,7 @@ Keke Ying:
 
 Shi Nian:
   name        : "Shi Nian"
-  bio         : "-"
+  bio         : "跌倒了就趴一会..."
   avatar      : "/assets/images/ShiNian.png"
   links:
     - label: "Email"
@@ -64,8 +64,8 @@ Shi Nian:
 
 Sun Yuchang:
   name        : "Sun Yuchang"
-  bio         : "跌倒了就趴一会"
-  avatar      : "/assets/images/SYC.png"
+  bio         : "-"
+  avatar      : "/assets/images/SYC.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
