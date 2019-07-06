@@ -168,9 +168,51 @@ classes:  wide
 
 5. 内联公式推荐采用换行的形式，不建议采用行内公式书写长表达式，换行形式输入可以避免一些`bug`，也会让公式形式更为美观。具体可以参考前面编辑后的文章。另外如果有人对插入公式的`latex`表达不够熟悉，可以参考[此网页](https://www.codecogs.com/latex/eqneditor.php)
 
-6. 在书写英文内容时注意使用半角符号。
+   作为补充，下面给出插入公式时的一个`demo`
 
-7. **还有很多注意事项暂时还来不及写完**
+   ```markdown
+   $$
+   \begin{equation}
+   \begin{split}
+   \left\| x \right\|_p=\left( \sum\limits_{i=1}^n \mid x \mid^p \right)^{\frac 1 p}
+   \end{split}
+   \tag{0}
+   \end{equation}
+   $$
+   ```
+
+   插入效果为
+   $$
+   \begin{equation}
+   \begin{split}
+   \left\| x \right\|_p=\left( \sum\limits_{i=1}^n \mid x \mid^p \right)^{\frac 1 p}
+   \end{split}
+   \tag{0}
+   \end{equation}
+   $$
+   其中中间一行是公式主体，`tag`可以给公式标号。
+
+6. 图像插入的`demo`如下
+
+   ```html
+   <div style="text-align:center" title="fig.1"><img alt="fig.1" src="https://raw.githubusercontent.com/psycholsc/psycholsc.github.io/master/assets/cstitle.png" style="display: inline-block;" width="400" />
+   <p>Fig.0 CS Abstract </p>
+   </div>
+   ```
+
+   插入效果为
+
+   <div style="text-align:center" title="fig.1"><img alt="fig.1" src="https://raw.githubusercontent.com/psycholsc/psycholsc.github.io/master/assets/cstitle.png" style="display: inline-block;" width="400" />
+   <p>Fig.0 CS Abstract </p>
+   </div>
+
+   直接采用`html`方法置入，`src`是图像的位置，`width`描述插入图像的宽度，`style`给出的效果是居中。下面可以采用一个简单的标签描述图像的内容。
+
+7. 如果对`LaTeX`不熟悉，**建议去[此网页](https://www.codecogs.com/latex/eqneditor.php)学习一下不同符号如何在`LaTeX`中表示**
+
+8. 在书写英文内容时注意使用半角符号。
+
+9. **还有很多注意事项暂时还来不及写完**
 
 投稿中的一些新特性方法会在这里逐渐更新，希望投稿或编辑之前先查看近期的更新情况。
 
