@@ -2,7 +2,7 @@
 
 Shicong Liu:
   name        : "Shicong Liu"
-  bio         : "-"
+  bio         : "Desperado."
   avatar      : "/assets/images/Shostakovich.jpg"
   links:
     - label: "Email"
@@ -62,8 +62,8 @@ Shi Nian:
       icon: "fas fa-fw fa-link"
       url: "http://anaqq.xyz/blog/"
 
-Sun Yuchang:
-  name        : "Sun Yuchang"
+Yuchang Sun:
+  name        : "Yuchang Sun"
   bio         : "-"
   avatar      : "/assets/images/SYC.jpg"
   links:
