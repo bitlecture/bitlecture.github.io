@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title:  "自适应滤波器"
 excerpt: "-"
