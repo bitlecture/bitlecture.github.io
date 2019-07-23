@@ -1,4 +1,4 @@
-# /_data/authors.yml
+﻿# /_data/authors.yml
 
 Shicong Liu:
   name        : "Shicong Liu"
@@ -73,3 +73,15 @@ Yuchang Sun:
     - label: "GitHub"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/sycgloria"
+
+Zewen Xu:
+  name        : "Zewen Xu"
+  bio         : "每天都有新的难过^-^"
+  avatar      : "/assets/images/xzw.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:839046168@qq.com"
+    - label: "GitHub"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/BITcats"
