@@ -85,3 +85,15 @@ Zewen Xu:
     - label: "GitHub"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/BITcats"
+
+Xiaotian Jia:
+  name        : "Xiaotian Jia"
+  bio         : "Жил до конца, умер как герой"
+  avatar      : "/assets/images/jxt.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:852892967@qq.com"
+    - label: "GitHub"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/gl40517
