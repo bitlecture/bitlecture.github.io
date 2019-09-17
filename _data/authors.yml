@@ -97,3 +97,15 @@ Xiaotian Jia:
     - label: "GitHub"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/gl40517"
+
+Tianhao Dong:
+  name        : "Tianhao Dong"
+  bio         : ""
+  avatar      : "/assets/images/dth.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dongtianhao2008@126.com"
+    - label: "GitHub"
+      icon: "fas fa-fw fa-link"
+      url: "about:blank"
